@@ -1,54 +1,42 @@
-# React + TypeScript + Vite
+# Lunar Phases
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Lunar Phases** interactive helps students visualize and understand the different phases of the Moon. By exploring the changing positions of the Earth, Moon, and Sun, students can see how the phases occur and repeat in a cycle.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Interactive
 
-## Expanding the ESLint configuration
+Try it out here:  
+👉 [https://content-interactives.github.io/lunar-phases](https://content-interactives.github.io/lunar-phases)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🌐 Where This Interactive Is Being Used
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This interactive is currently featured in the following locations:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5d12571f-8e12-4441-98ab-c0bc94069a96" /> **CK-12 Intent Response**  
+  - 👉 PRODUCTION: PENDING  
+  - 👉 MASTER: PENDING  
+- 📘 **CK-12 Flexbooks**
+  - 👉 PENDING
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 📚 Standards & Subjects
+
+This interactive aligns with the following topics and standards:
+
+- **📂 Subject Area**: Middle School Science  
+- **🧮 Topic**: Astronomy (Earth, Moon, and Sun System)  
+- **📏 Common Core / NGSS Alignment**:  
+  - MS-ESS1-1 – Develop and use a model of the Earth-Sun-Moon system to describe lunar phases, eclipses, and seasons  
+  - MS-ESS1.A – Patterns of the apparent motion of the Sun, the Moon, and stars in the sky can be observed, described, predicted, and explained with models
+
+---
+
+## 🛠️ Developer Notes
+
+- Built with: HTML, CSS, JavaScript  
+- Deployed via GitHub Pages  
+- See `index.html` and supporting assets in `js/` and `css/` folders
